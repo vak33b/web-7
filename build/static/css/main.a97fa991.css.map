@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.a97fa991.css","mappings":"AAAA,WACI,YACJ,CCFA,QAEI,aAAc,CADd,YAEJ","sources":["widgets/Deletable/style.css","pages/TodoPage/style.css"],"sourcesContent":[".deletable {\r\n    display: flex;\r\n}\r\n\r\n.delete-btn {\r\n    \r\n}\r\n",".loader {\r\n    padding: 20px;\r\n    font-size: 2em;\r\n}"],"names":[],"sourceRoot":""}
