@@ -9,7 +9,7 @@ function App() {
   }, []);
 
   const fetchCount = async () => {
-    const response = await fetch('http://localhost:3333/count');
+    const response = await fetch('http://localhost:8081/count');
     const data = await response.json();
     setCount(data);
   };
@@ -22,7 +22,7 @@ function App() {
       return;
     }
 
-    await fetch('http://localhost:3333/count', {
+    await fetch('http://localhost:8081/count', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

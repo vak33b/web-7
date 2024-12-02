@@ -5,7 +5,7 @@ function App() {
 
   const fetchMessage = async () => {
     try {
-      const response = await fetch('http://localhost:8080/get');
+      const response = await fetch('http://localhost:8082/get');
       if (!response.ok) {
         throw new Error('Сеть не отвечает');
       }

@@ -7,7 +7,7 @@ function App() {
 
   const fetchGreeting = async () => {
     try {
-      const response = await axios.get(`http://localhost:8081/api/user?name=${name}`);
+      const response = await axios.get(`http://localhost:8083/api/user?name=${name}`);
       setGreeting(response.data);
     } catch (error) {
       console.error('Ошибка при получении приветствия:', error);
